@@ -1,7 +1,6 @@
-import React from 'react'
+//import React from 'react'
 import Form from 'react-bootstrap/Form'
-
-
+import Button from 'react-bootstrap/Button'
 
 function Contacts() {
     return (
@@ -14,6 +13,7 @@ function Contacts() {
           <Form.Label>Descripción:</Form.Label>
           <Form.Control as="textarea" rows={3} />
         </Form.Group>
+        <Button variant="danger">Enviar</Button>{' '}
       </Form>
     )
 }
