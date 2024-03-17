@@ -1,7 +1,5 @@
 import { Container } from 'react-bootstrap'
 
-import Contacts from '../components/Contacts'
-
 const ContactsPage = () => {
     return (
         <Container className="pt-5">
